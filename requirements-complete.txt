@@ -1,0 +1,25 @@
+# Core dependencies for HuatuoGPT-o1 training
+trl==0.13.0
+accelerate==0.34.2
+torch==2.5.1
+transformers==4.46.2
+deepspeed==0.15.4
+xformers==0.0.28
+vllm==0.6.4
+torchvision==0.20.1
+retrying
+
+# Additional dependencies for dataset download and processing
+datasets>=2.14.0
+huggingface_hub>=0.17.0
+
+# Useful utilities
+wandb>=0.15.0  # For experiment tracking
+tqdm>=4.65.0   # Progress bars
+jinja2>=3.1.0  # Template rendering (used by tokenizers)
+
+# Optional but recommended
+jupyter>=1.0.0         # For interactive notebooks
+matplotlib>=3.7.0      # For visualization
+seaborn>=0.12.0        # For better plots
+pandas>=2.0.0          # For data manipulation
