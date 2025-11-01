@@ -50,8 +50,11 @@ class Train_dataset(torch.utils.data.Dataset):
         return self.data[index]
 
     def get_response(self,da):
-        temp = '## Thinking\n\n{}\n\n## Final Response\n\n{}'
-        return temp.format(da['Complex_CoT'],da['Response'])
+        # Support both Complex_CoT (legacy) and Solution_Guidance (new format)
+        reasoning = da.get('Solution_Guidance', da.get('Complex_CoT', ''))
+        header = 'Solution Guidance' if 'Solution_Guidance' in da else 'Thinking'
+        temp = '## {}\n\n{}\n\n## Final Response\n\n{}'
+        return temp.format(header, reasoning, da['Response'])
 
 
     def get_prompt(self,da):
