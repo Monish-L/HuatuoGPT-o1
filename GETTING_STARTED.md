@@ -4,21 +4,58 @@ Welcome! This guide will help you train HuatuoGPT-o1 using the **FreedomIntellig
 
 ---
 
+## 🆕 NEW: Complete Visual Studio Code Guide!
+
+**Never used VS Code before?** No problem! I've created a complete guide that walks you through **every single step**:
+
+👉 **[VSCODE_SETUP_GUIDE.md](VSCODE_SETUP_GUIDE.md)** - Your complete VS Code tutorial
+
+This guide covers:
+- ✅ Installing VS Code from scratch
+- ✅ Setting up the project in VS Code
+- ✅ Using the integrated terminal
+- ✅ Running all commands step-by-step
+- ✅ Monitoring training in VS Code
+- ✅ Troubleshooting with screenshots descriptions
+- ✅ Useful shortcuts and tips
+
+**If you're using VS Code, start there!**
+
+---
+
 ## 📁 What's Included
 
 I've created several helpful files for you:
 
 | File | Purpose |
 |------|---------|
+| `VSCODE_SETUP_GUIDE.md` | **⭐ Complete Visual Studio Code tutorial (NEW!)** |
 | `download_and_prepare_dataset.py` | Downloads and prepares the FreedomIntelligence dataset |
 | `train_stage1.sh` | Easy-to-use training script with configuration |
 | `QUICKSTART.md` | Quick reference guide (5-minute read) |
 | `SETUP_AND_TRAINING_GUIDE.md` | Detailed step-by-step guide (complete tutorial) |
+| `QUICK_REFERENCE.md` | One-page command reference card |
 | `requirements-complete.txt` | All dependencies including dataset tools |
 
 ---
 
-## 🎯 Three Ways to Get Started
+## 🎯 Four Ways to Get Started
+
+### 0️⃣ **Using Visual Studio Code?** (Recommended for Beginners)
+
+👉 **Start here**: **[VSCODE_SETUP_GUIDE.md](VSCODE_SETUP_GUIDE.md)**
+
+This is a **complete beginner-friendly tutorial** that assumes you know nothing about VS Code. It covers:
+- Installing VS Code from scratch
+- Opening the project
+- Using the terminal
+- Running every command step-by-step
+- Monitoring training
+- Everything you need in one place!
+
+**Perfect if you're new to coding or want a visual guide.**
+
+---
 
 ### 1️⃣ Ultra-Quick Start (For Experienced Users)
 
@@ -39,7 +76,7 @@ huggingface-cli login
 ./train_stage1.sh
 ```
 
-### 2️⃣ Quick Start (Recommended)
+### 2️⃣ Quick Start (For Terminal Users)
 
 Read the **[QUICKSTART.md](QUICKSTART.md)** file - it's a condensed guide that covers:
 - Environment setup (5 minutes)
@@ -49,7 +86,7 @@ Read the **[QUICKSTART.md](QUICKSTART.md)** file - it's a condensed guide that c
 
 **Time to start training: ~15-20 minutes**
 
-### 3️⃣ Complete Tutorial (For Beginners)
+### 3️⃣ Complete Tutorial (Detailed Terminal Guide)
 
 Read the **[SETUP_AND_TRAINING_GUIDE.md](SETUP_AND_TRAINING_GUIDE.md)** file - it's a comprehensive tutorial that covers:
 - Detailed system requirements
